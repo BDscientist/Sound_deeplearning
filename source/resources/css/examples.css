@@ -1,0 +1,83 @@
+Skip to content
+Why GitHub?
+Enterprise
+Explore
+Marketplace
+Pricing
+Search
+
+Sign in
+Sign up
+319 7,079 1,331 hpneo/gmaps
+ Code  Issues 80  Pull requests 8  Projects 0  Wiki  Security  Insights
+Join GitHub today
+GitHub is home to over 36 million developers working together to host and review code, manage projects, and build software together.
+
+gmaps/examples/examples.css
+@hpneo hpneo Better GMaps.Route methods
+aaef12f on 25 Mar 2012
+51 lines (49 sloc)  965 Bytes
+
+body{
+  font-family: 'Droid Sans', 'Helvetica', Arial, sans-serif;
+  margin:5px;
+}
+#map{
+  display: block;
+  width: 95%;
+  height: 600px;
+  margin: 0 auto;
+  -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
+}
+#map.large{
+  height:500px;
+}
+
+.overlay{
+  display:block;
+  text-align:center;
+  color:#fff;
+  font-size:60px;
+  line-height:80px;
+  opacity:0.8;
+  background:#4477aa;
+  border:solid 3px #336699;
+  border-radius:4px;
+  box-shadow:2px 2px 10px #333;
+  text-shadow:1px 1px 1px #666;
+  padding:0 4px;
+}
+
+.overlay_arrow{
+  left:50%;
+  margin-left:-16px;
+  width:0;
+  height:0;
+  position:absolute;
+}
+.overlay_arrow.above{
+  bottom:-15px;
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
+  border-top:16px solid #336699;
+}
+.overlay_arrow.below{
+  top:-15px;
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
+  border-bottom:16px solid #336699;
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
